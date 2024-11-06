@@ -9,6 +9,15 @@ ul, ol {list-style-type: none;}
 
 a {text-decoration: none;}
 
+/* common */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -47,5 +56,103 @@ a {text-decoration: none;}
 .nav-link:hover,
 .nav-link:focus, 
 .contact-link:hover, 
-.contact-link:focus 
-{color: #404bbf;}
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.section-one {
+  background-color: #2e2f42;
+}
+
+.title-page {
+ font-weight: 700;
+ font-size: 56px;
+ line-height: 1.07;
+ letter-spacing: 0.02em;
+ text-align: center;
+ color: #fff;
+}
+
+.hero-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+
+}
+.hero-button:hover, .hero-batton:focus {
+background-color: #404bbf;
+}
+/* section-advantages */
+.advantages-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.advantages-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* section-team */
+.section-team {
+    background-color: #f4f4fd;
+}
+.team-item {
+background-color: #fff;
+}
+
+.team-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.segtion-portfolio{
+
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.portfolio-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* page-footer */
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
