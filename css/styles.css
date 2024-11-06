@@ -16,6 +16,7 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .logo {font-family: "Raleway", sans-serif;
@@ -83,7 +84,7 @@ a {text-decoration: none;}
     cursor: pointer;
 
 }
-.hero-button:hover, .hero-batton:focus {
+.hero-button:hover, .hero-button:focus {
 background-color: #404bbf;
 }
 /* section-advantages */
@@ -104,6 +105,7 @@ background-color: #404bbf;
 /* section-team */
 .section-team {
     background-color: #f4f4fd;
+    
 }
 .team-item {
 background-color: #fff;
